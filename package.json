@@ -9,6 +9,10 @@
   "keywords": [
     "errorparser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakibhasansabbir/error-parser.git"
+  },
   "author": "mrhasansabbir <mrhasansabbir@gmail.com> (http://rakibhasansabbir.com)",
   "license": "ISC"
 }
