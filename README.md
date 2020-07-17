@@ -4,14 +4,14 @@ Parse Laravel error to list of messages
 
 # installation
 
-`npm i error-parser --save`
+`npm i lara-error-parser --save`
 
 Then...
 
 ```
-import { error-parser } from 'error-parser';
+import { lara-error-parser } from 'lara-error-parser';
 
-error-parser.parse(error).forEach((item) => {
+lara-error-parser.parse(error).forEach((item) => {
     // toast or print error here
 });
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "error-parser",
+  "name": "lara-error-parser",
   "version": "1.0.0",
   "description": "Parse laravel error to list of messages",
   "main": "index.js",
