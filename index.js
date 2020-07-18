@@ -1,4 +1,4 @@
-exports.parse = function(error) {
+function laraErrorParser (error) {
   const errors = []
   try {
     const errorObj = error.response.data.errors
@@ -23,4 +23,5 @@ exports.parse = function(error) {
   }
   return errors
 }
-  
+
+module.exports.laraErrorParser = laraErrorParser;

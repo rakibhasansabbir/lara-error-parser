@@ -1,6 +1,6 @@
 # what is this?
 
-Parse Laravel error to list of messages
+Parse Laravel error or validation error to list of messages(string)
 
 # installation
 
@@ -9,9 +9,9 @@ Parse Laravel error to list of messages
 Then...
 
 ```
-import { lara-error-parser } from 'lara-error-parser';
+import { laraErrorParser } from 'lara-error-parser';
 
-lara-error-parser.parse(error).forEach((item) => {
+laraErrorParser(error).forEach((item) => {
     // toast or print error here
 });
 ```
