@@ -1,6 +1,6 @@
 # what is this?
 
-Parse Laravel error or validation error to list of messages(string)
+Parse Laravel error to list of messages(string)
 
 ### Features
 
